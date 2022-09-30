@@ -9,7 +9,7 @@ import java.util.Queue;
 
 public class Scheduling {
 
-    static void RoundRubin(Process[] p, int quantum) {
+    static void RoundRobin(Process[] p, int quantum) {
         Process[] tmp = new Process[p.length];
         System.arraycopy(p, 0, tmp, 0, p.length);
         List<Process> lst = Arrays.asList(tmp);
