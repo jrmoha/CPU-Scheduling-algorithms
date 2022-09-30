@@ -15,7 +15,7 @@ public class Main {
         };
         //Scheduling.FCFS(p);
         //Scheduling.SJF(p);
-        Scheduling.RoundRubin(p, 4);
+        Scheduling.RoundRobin(p, 4);
         System.out.printf("Job  Arrival  Burst TurnAround Waiting%n");long id;
         for (Process pp : p) {
              id = pp.getId();
